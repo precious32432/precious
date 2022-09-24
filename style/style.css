@@ -10,10 +10,10 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .firstbox {
@@ -40,12 +40,12 @@ body {
     color: grey;
     font-weight: 100;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .firstbox .box1 h2{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0px;
 }
 
@@ -202,6 +202,7 @@ body {
     flex-direction: column;
     display: flex;
     justify-content: center;
+    margin: 10px;
 
 }
 
